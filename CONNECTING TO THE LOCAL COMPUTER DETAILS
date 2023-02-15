@@ -1,0 +1,16 @@
+Assume I want to add new customers/images, what should I use: php or sql
+
+Both PHP and SQL are commonly used in web development to manage data, but they serve different purposes.
+
+PHP is a server-side scripting language that is often used to create dynamic web pages and process form data submitted by users. PHP is useful when you want to add new customer data to your website, such as when a new customer creates an account or makes a reservation.
+
+SQL, on the other hand, is a programming language used to manage data in a relational database. SQL is useful when you want to store and retrieve information about customers, such as their contact information, reservation history, or preferences.
+
+In your case, since you want to add new customer data and images, PHP would be the more appropriate tool to use. You could create a PHP script that processes the data submitted by a user through a form, and then stores the data in a SQL database. You could also use PHP to upload new images to your web server and associate them with the appropriate customer records in the database.
+Sahli Enterprises Limited
+If php, create a code for me that will store data from a form(update html with the code that collects form during signup that includes the following; email address, id no, name, password, region). Data collected should be stored on my local computer.
+
+Sure, here's an example PHP code for storing form data in a local database:
+
+HTML code for the form (assuming you already have a basic HTML structure):
+
