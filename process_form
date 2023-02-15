@@ -1,0 +1,7 @@
+In the PHP code above, we first create a new PDO object to connect to the local database. 
+We then use the $_POST superglobal array to get the form data submitted by the user. 
+We prepare a SQL statement to insert the data into the customers table in the database, and bind the form data to the appropriate placeholders in the statement using the bindParam method.
+We then execute the SQL statement, and redirect the user to a confirmation page.
+
+Note that you will need to create a database with a customers table that has columns for email, idno, name, password, and region. 
+You will also need to modify the PDO connection string to match your local database configuration.
