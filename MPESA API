@@ -1,0 +1,13 @@
+So I wanted to create a checkout system that is supposed to be integrated with M-PESA API, how can I integrate it into my website(create a html checkout page and integrate the API to my system)
+
+To integrate M-PESA API with your website's checkout system, you will need to follow these steps:
+
+    Sign up for an account with M-PESA API. This will give you access to their documentation and test environment.
+
+    Create a checkout form on your website that collects the customer's payment details (e.g. phone number, amount to be paid, etc.).
+
+    Use the M-PESA API documentation to generate an authentication token and initiate a new payment transaction with the details collected from the checkout form. You can use PHP to make the API request.
+
+    Once the API confirms the success of the transaction, update your local database with the details of the transaction (e.g. transaction ID, status, etc.) and show a confirmation page to the customer.
+
+Here is an example HTML checkout form that collects the necessary information:
